@@ -1,4 +1,4 @@
-package com.example.nordapp.ui.main
+package com.example.nordapp.presentation.login
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle

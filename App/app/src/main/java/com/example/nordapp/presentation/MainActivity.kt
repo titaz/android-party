@@ -1,8 +1,9 @@
-package com.example.nordapp
+package com.example.nordapp.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.nordapp.ui.main.MainFragment
+import com.example.nordapp.R
+import com.example.nordapp.presentation.login.MainFragment
 
 class MainActivity : AppCompatActivity() {
 
