@@ -5,8 +5,12 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="@drawable/bg"
     tools:context=".presentation.login.MainFragment">
+=======
+    tools:context=".presentation.login.LoginFragment">
+>>>>>>> 0c0091d9941fa42c45084c71391554dfa23d0803
 
     <LinearLayout
         android:id="@+id/progress"

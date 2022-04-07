@@ -1,18 +1,23 @@
 package com.example.nordapp.presentation.login
 
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
 import com.example.nordapp.R
+<<<<<<< HEAD:App/app/src/main/java/com/example/nordapp/presentation/login/MainFragment.kt
 import com.example.nordapp.databinding.MainFragmentBinding
+=======
+import dagger.hilt.android.AndroidEntryPoint
+>>>>>>> 0c0091d9941fa42c45084c71391554dfa23d0803:App/app/src/main/java/com/example/nordapp/presentation/login/LoginFragment.kt
 
-class MainFragment : Fragment() {
+@AndroidEntryPoint
+class LoginFragment : Fragment() {
 
     companion object {
-        fun newInstance() = MainFragment()
+        fun newInstance() = LoginFragment()
     }
 
     private lateinit var viewModel: MainViewModel
@@ -45,6 +50,7 @@ class MainFragment : Fragment() {
     fun progressUi(visability: Int){
         binding.progress.visibility = visability
     }
+
 
 
 
